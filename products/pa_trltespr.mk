@@ -28,5 +28,5 @@ $(call inherit-product, device/samsung/trltespr/full_trltespr.mk)
 # Override AOSP build properties
 PRODUCT_NAME := pa_trltespr
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := SM-N901p
+PRODUCT_MODEL := trltespr
 PRODUCT_MANUFACTURER := Samsung
