@@ -36,4 +36,7 @@ endif
 ifeq (pa_tilapia,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tilapia.mk
 endif
+ifeq (pa_trltespr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_trltespr.mk
+endif
 
