@@ -23,7 +23,7 @@ OVERLAY_TARGET := pa_xxhdpi
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/samsung/trltespr.mk/full_trltespr.mk)
+$(call inherit-product, device/samsung/trltespr/full_trltespr.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_trltespr
